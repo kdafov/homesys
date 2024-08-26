@@ -1,0 +1,997 @@
+[
+    {
+        "id": 0,
+        "name": "Fish Tempura",
+        "img": "fish-tempura.jpg",
+        "ingredients": [
+            "2 Cod/White fish fillets",
+            "Sparking water",
+            "1 Egg",
+            "Flour"
+        ],
+        "method": [
+            "Crack one egg and whisk until mixed well.",
+            "Add equivalent amount of sparking water, and add flour to get a thick mixture.",
+            "Heat up oil in the pan.",
+            "Dip the fillets in the created mixture and fry in the pan until golden/ready.",
+            "Serve with lemon on the side."
+        ],
+        "matches": [
+            [20, "Tartar sauce"],
+            [25, "Peas purée"],
+            [26, "Potato purée"],
+            [27, "Fried potatoes"]
+        ],
+        "type": "main"
+    },
+    {
+        "id": 1,
+        "name": "Chilli Salmon",
+        "img": "chilli-salmon.jpg",
+        "ingredients": [
+            "500g + salmon piece",
+            "Chilli sauce"
+        ],
+        "method": [
+            "Preheat the oven at 215°C.",
+            "Ensure the salmon piece is clean and free of bones.",
+            "Glaze the salmon with sweet chilli sauce to cover it.",
+            "Place the salmon on a baking tray over baking paper.",
+            "Bake for 15-25 minutes or until ready.",
+            "Serve with lemon on the side."
+        ],
+        "matches": [
+            [26, "Potato purée"],
+            [28, "Green salad"]
+        ],
+        "type": "main"
+    },
+    {
+        "id": 2,
+        "name": "Asian Chicken",
+        "img": "asian-chicken.jpg",
+        "ingredients": [
+            "Chicken (thigh)",
+            "Honey",
+            "Soy sauce",
+            "Worcestershire sauce",
+            "5 garlic cloves",
+            "Half ginger",
+            "Mustard",
+            "Salt",
+            "Spring onion (optional)",
+            "Sesame (optional)"
+        ],
+        "method": [
+            "In a bowl, add a tiny bit of olive oil.",
+            "Add a couple of squeezes of honey.",
+            "Add soy sauce.",
+            "Add 3-5 drops of Worcestershire sauce.",
+            "Squeeze 4 garlic cloves and half ginger.",
+            "Add a tiny bit of mustard.",
+            "Add salt to taste.",
+            "Cut the chicken into cubes and add it to the mix.",
+            "Mix well.",
+            "Fry on a hot pan until chicken is cooked.",
+            "Optional: Garnish with spring onion and sesame."
+        ],
+        "matches": [
+            [29, "Rice"],
+            [30, "Asparagus"],
+            [31, "Broccoli"],
+            [32, "Bok choy"]
+        ],
+        "type": "main"
+    },
+    {
+        "id": 3,
+        "name": "BBQ Chicken",
+        "img": "bbq-chicken.jpg",
+        "ingredients": [
+            "Chicken breast",
+            "Salt",
+            "Black pepper",
+            "Cumin",
+            "Sweet red pepper",
+            "Chicken spice",
+            "Herbs",
+            "White wine vinegar (optional)"
+        ],
+        "method": [
+            "Dice up the chicken into small cubes and place in a bowl for marination.",
+            "Add olive oil, salt, black pepper, a little bit of cumin, and sweet red pepper.",
+            "Add chicken spice and herbs.",
+            "Optional: Add white wine vinegar.",
+            "Fry in a pan until cooked."
+        ],
+        "matches": [
+            [28, "Green salad"],
+            [29, "Rice"],
+            [31, "Broccoli"],
+            [30, "Asparagus"],
+            [33, "Green beans"]
+        ],
+        "type": "main"
+    },
+    {
+        "id": 4,
+        "name": "Chicken Over Rice",
+        "img": "chicken-over-rice.jpg",
+        "ingredients": [
+            "Chicken",
+            "1 onion",
+            "1 carrot",
+            "2-3 cloves garlic",
+            "1 red pepper",
+            "Salt",
+            "Black pepper",
+            "Red pepper",
+            "White wine vinegar",
+            "Red peppers",
+            "Broccoli",
+            "Cauliflower",
+            "Peas and/or corn",
+            "Rice",
+            "Nando's mild spice",
+            "Nando's mild sauce"
+        ],
+        "method": [
+            "Dice up the onion, grate the carrot, and squeeze the garlic. Set aside (prep A).",
+            "Marinate the chicken with salt, black pepper, red pepper, olive oil, and white wine vinegar. Leave to marinate (prep B).",
+            "Cut red peppers into lengths and set aside (prep C).",
+            "Cut broccoli and cauliflower into small cubes and add peas and/or corn. Set aside (prep D).",
+            "Clean and prepare the rice.",
+            "Start cooking the rice. In another pan, add oil and cook prep A until the onion softens.",
+            "Add prep B to the pan and cook until the chicken is mostly cooked.",
+            "Add prep C to the pan. When the peppers become soft, add prep D and cook until everything is soft.",
+            "Add Nando's mild spice and sauce, and cook until hot.",
+            "Serve with rice on the side."
+        ],
+        "matches": [],
+        "type": "main"
+    },
+    {
+        "id": 5,
+        "name": "Spicy Chicken Stew",
+        "img": "spicy-chicken-stew.jpg",
+        "ingredients": [
+            "Chicken",
+            "Salt",
+            "Black pepper",
+            "3 garlic cloves",
+            "White wine vinegar",
+            "Chipotle paste",
+            "Habanero spice",
+            "Ketchup",
+            "Chicken spice",
+            "Red pepper",
+            "Onion",
+            "Carrot",
+            "Courgette (optional)",
+            "Aubergine (optional)",
+            "Spring onion",
+            "Parsley"
+        ],
+        "method": [
+            "In a bowl, create the marinade by adding olive oil, salt, black pepper, 3 garlic cloves, white wine vinegar, chipotle paste, habanero spice, ketchup, chicken spice, and red pepper.",
+            "Dice the chicken into cubes and add it to the marinade.",
+            "In a heated pan, add half an onion and one grated carrot and cook until soft.",
+            "Add the chicken with the marinade to the pan.",
+            "Optional: Add grated or diced courgette and aubergine.",
+            "Add spring onion and parsley and cook until hot."
+        ],
+        "matches": [
+            [29, "Rice"],
+            [30, "Asparagus"],
+            [38, "Corn"],
+            [28, "Green salad"],
+            [31, "Broccoli"]
+        ],
+        "type": "main"
+    },
+    {
+        "id": 6,
+        "name": "Tacos",
+        "img": "tacos.jpg",
+        "ingredients": [
+            "Chicken or beef mince",
+            "Salt",
+            "Black pepper",
+            "Red pepper",
+            "Chicken spice",
+            "Naan bread",
+            "1 avocado",
+            "Lime juice",
+            "Tomatoes",
+            "Red onion",
+            "Parsley",
+            "Lettuce",
+            "Sour cream or yogurt",
+            "Mozzarella cheese",
+            "Limes",
+            "Mayonnaise (optional)"
+        ],
+        "method": [
+            "Boil chicken until cooked and cool it down. Shred the chicken and add salt, black pepper, red pepper, chicken spice, and herbs. Alternatively, fry beef mince until cooked and add salt and black pepper.",
+            "Prepare the naan bread and cut it evenly into small circles.",
+            "Prepare the guacamole by mashing one avocado and adding a little lime juice and salt.",
+            "Prepare the pico de gallo by dicing tomatoes and red onion into cubes and adding parsley.",
+            "Cut lettuce into lengths.",
+            "Prepare sour cream or yogurt.",
+            "Prepare mozzarella cheese.",
+            "Assemble the tacos by adding the meat mix, pico de gallo, guacamole, sour cream, cheese, and lettuce. Gently grill the assembled tacos in a pan for a small decorative char.",
+            "Serve with limes, extra parsley, and (optional) mayonnaise drizzle on top of the tacos."
+        ],
+        "matches": [],
+        "type": "main"
+    },
+    {
+        "id": 7,
+        "name": "Fish Fingers",
+        "img": "fish-fingers.jpg",
+        "ingredients": [
+            "2 Cod/White fish fillets",
+            "Flour",
+            "1 Egg",
+            "Breadcrumbs"
+        ],
+        "method": [
+            "Cut the fish fillets into strips.",
+            "Dip each strip into flour, then in egg, and then breadcrumbs.",
+            "Deep fry the pieces until golden.",
+            "Serve with lemon on the side."
+        ],
+        "matches": [
+            [20, "Tartar sauce"],
+            [25, "Peas purée"],
+            [27, "Fried potatoes"],
+            [-1, "Ketchup"]
+        ],
+        "type": "main"
+    },
+    {
+        "id": 8,
+        "name": "Milanesa chicken",
+        "img": "milanesa-chicken.jpg",
+        "ingredients": [
+            "Chicken",
+            "Flour",
+            "Egg",
+            "Breadcrumbs",
+            "Mayonnaise",
+            "Lemon",
+            "Chicken spice"
+        ],
+        "method": [
+            "Cut chicken into steak cuts",
+            "Dip each cut into flour, then egg, and then breadcrumbs",
+            "Preheat olive oil in a pan",
+            "Fry each steak cut until golden",
+            "Serve with mayonnaise, lemon, and chicken spice"
+        ],
+        "matches": [
+            [29, "Rice"],
+            [26, "Potato puree"],
+            [28, "Green salad"]
+        ],
+        "type": "main"
+    },
+    {
+        "id": 9,
+        "name": "Chicken Caesar Salad",
+        "img": "chicken-caesar-salad.jpg",
+        "ingredients": [
+            "Chicken",
+            "Flour",
+            "Egg",
+            "Breadcrumbs",
+            "Romaine lettuce",
+            "Caesar dressing",
+            "Croutons",
+            "Bacon",
+            "Parmesan cheese",
+            "(Optional) Anchovies"
+        ],
+        "method": [
+            "Cut the chicken into stripes",
+            "Dip each stripe into flour, then egg, and then breadcrumbs",
+            "Cut the romaine lettuce into square pieces and wash it thoroughly, then add to bowl",
+            "Add Caesar dressing to the bowl and croutons",
+            "Cut bacon in squares and in a heated pan cook until cooked, then add to bowl",
+            "In the same pan, cook the premade chicken stripes until golden",
+            "Mix the lettuce, bacon, Caesar sauce, and croutons in the bowl and add to plate",
+            "Add the chicken stripes on top and top up with grated Parmesan cheese and extra Caesar dressing if needed",
+            "(Optional) add anchovies if desired"
+        ],
+        "matches": [
+            [34, "Caesar dressing"]
+        ],
+        "type": "main"
+    },
+    {
+        "id": 10,
+        "name": "Beef Steaks",
+        "img": "beef-steaks.jpg",
+        "ingredients": [
+            "Beef joint",
+            "Salt",
+            "Black pepper",
+            "Butter",
+            "Rosemary"
+        ],
+        "method": [
+            "Cut beef joint into steak cuts",
+            "Add salt and black pepper on both sides of each cut",
+            "In a pan, melt a teaspoon of butter",
+            "Place the meat cuts into the pan along with a branch of rosemary",
+            "Cook until a slight line of cooked meat is visible and rotate the meat, while also shaking the butter-rosemary mix",
+            "Repeat this process according to how you prefer the meat",
+            "Serve with granular or sea salt on top"
+        ],
+        "matches": [
+            [26, "Potato puree"],
+            [35, "Grilled aubergine"],
+            [36, "Spinach"],
+            [37, "Mac and cheese"],
+            [31, "Broccoli"],
+            [30, "Asparagus"],
+            [33, "Green beans"],
+            [21, "Spicy sauce"]
+        ],
+        "type": "main"
+    },
+    {
+        "id": 11,
+        "name": "Empanadas",
+        "img": "empanadas.jpg",
+        "ingredients": [],
+        "method": [],
+        "matches": [],
+        "type": "main"
+    },
+    {
+        "id": 12,
+        "name": "Chicken Soup",
+        "img": "chicken-soup.jpg",
+        "ingredients": [],
+        "method": [],
+        "matches": [],
+        "type": "main"
+    },
+    {
+        "id": 13,
+        "name": "Ramen",
+        "img": "ramen.jpg",
+        "ingredients": [],
+        "method": [],
+        "matches": [],
+        "type": "main"
+    },
+    {
+        "id": 14,
+        "name": "Veggie Pure",
+        "img": "veggie-pure.jpg",
+        "ingredients": [
+            "Butternut squash",
+            "Courgette",
+            "Carrot",
+            "Onion",
+            "Sweet potatoes",
+            "Spinach",
+            "Cheese slices",
+            "Grilled bread",
+            "Lemon"
+        ],
+        "method": [
+            "Peel and slice the butternut squash into cubes (remove the seeds)",
+            "Slice the courgette into circles",
+            "Peel the carrot and onion and slice into appropriate cubes",
+            "Peel the sweet potatoes and slice them into cubes",
+            "Boil water in a big pot and add all the above plus one bag of spinach",
+            "When all vegetables are soft and cooked, drain the water",
+            "Using a blender, blend all the ingredients, adding a slice of cheese per blend or around 4-5 slices of cheese in total",
+            "Serve in a bowl with grilled bread and lemon"
+        ],
+        "matches": [],
+        "type": "main"
+    },
+    {
+        "id": 15,
+        "name": "Tomato & Basil Soup",
+        "img": "tomato-basil-soup.jpg",
+        "ingredients": [
+            "Fresh tomatoes",
+            "Onion",
+            "Carrot",
+            "Sweet red pepper",
+            "Veggie stock (optional)",
+            "Fresh basil",
+            "Cheese slices",
+            "Lemon",
+            "Croutons",
+            "Oregano"
+        ],
+        "method": [
+            "Chop fresh tomatoes into cubes",
+            "In a pan, add a bit of olive oil and cook onion until soft",
+            "Add carrot and sweet red pepper and cook until soft",
+            "Add veggie stock if desired and then add the tomatoes",
+            "Cut fresh basil and add to the mix along with a little boiling water",
+            "When tomatoes are cooked enough, turn off the heat and let it cool",
+            "Blend the mixture, adding a cheese slice to each blend",
+            "Serve with a lemon slice, croutons in the middle, a dash of oregano, a line of olive oil, and a leaf of basil on top for decoration"
+        ],
+        "matches": [],
+        "type": "main"
+    },
+    {
+        "id": 16,
+        "name": "Scrambled Eggs",
+        "img": "scrambled-eggs.jpg",
+        "ingredients": [
+            "Eggs",
+            "Garlic powder",
+            "Salt",
+            "Black pepper",
+            "Butter",
+            "Tomatoes and/or cucumber",
+            "Bread"
+        ],
+        "method": [
+            "Crack 2-3 eggs into a bowl",
+            "Add garlic powder, salt, and black pepper, then mix well",
+            "In a pan, add a small cube of butter and the egg mixture, and keep mixing with a whisk or spatula",
+            "Remove from heat if eggs are hardening too fast and ensure eggs are cooked evenly as you scramble in the pan",
+            "Add feta cheese to the mixture and cook until hot",
+            "Serve with tomatoes and/or cucumber and bread"
+        ],
+        "matches": [],
+        "type": "breakfast"
+    },
+    {
+        "id": 17,
+        "name": "Omelet",
+        "img": "omelet.jpg",
+        "ingredients": [
+            "Eggs",
+            "Salt",
+            "Black pepper",
+            "Garlic powder",
+            "Butter",
+            "Gouda cheese slices",
+            "Feta cheese",
+            "Tomatoes",
+            "Bread"
+        ],
+        "method": [
+            "For each omelet, crack one egg into a bowl",
+            "Add salt, black pepper, and garlic powder",
+            "Add butter to a heated pan and pour the egg mixture from the bowl, spreading evenly as if making pancakes",
+            "Once ready, flip the egg and add Gouda cheese slices and feta cheese to one half",
+            "Fold the egg (place the half with nothing on top of the half with cheeses)",
+            "Once cooked, remove from the pan and serve with tomatoes and bread"
+        ],
+        "matches": [],
+        "type": "breakfast"
+    },
+    {
+        "id": 18,
+        "name": "Fried Eggs",
+        "img": "fried-eggs.jpg",
+        "ingredients": [
+            "Eggs",
+            "Salt"
+        ],
+        "method": [
+            "Preheat pan and add olive oil",
+            "Crack one egg over the oil and add salt",
+            "Once cooked, remove from the pan and enjoy on a sandwich or by itself"
+        ],
+        "matches": [],
+        "type": "breakfast"
+    },
+    {
+        "id": 19,
+        "name": "Gnocchi",
+        "img": "gnocchi.jpg",
+        "ingredients": [
+            "Onion",
+            "Grated carrot",
+            "Celery",
+            "Tomato paste",
+            "Chopped basil",
+            "Gnocchi",
+            "Parmesan cheese"
+        ],
+        "method": [
+            "In a preheated pan, add a dash of olive oil",
+            "Add onion, grated carrot, and celery, and cook until soft",
+            "Add tomato paste and chopped basil",
+            "Boil the gnocchi in a separate pot",
+            "When ready, drain from water and add to the first pot",
+            "Cook until all mixed well and hot",
+            "Serve with Parmesan on top and a basil leaf for decoration"
+        ],
+        "matches": [],
+        "type": "main"
+    },
+    {
+        "id": 20,
+        "name": "Tartar sauce",
+        "img": "tartar.jpg",
+        "ingredients": [
+            "1 boiled egg",
+            "4/5 gherkins",
+            "Worcestershire sauce",
+            "1 teaspoon mustard",
+            "2 tablespoons capers",
+            "Lemon juice",
+            "Mayonnaise",
+            "Dill"
+        ],
+        "method": [
+            "Boil one egg and once ready, peel and mash well, then add to a bowl.",
+            "Slice 4/5 gherkins into tiny cubes and add to the bowl.",
+            "Add a couple of drops of Worcestershire sauce and a teaspoon of mustard.",
+            "Slice into small pieces two spoons of capers and add to the bowl.",
+            "Add a little bit of lemon juice, top up with mayonnaise, and complete with sliced dill."
+        ],
+        "matches": [
+            [0, "Fish Tempura"],
+            [7, "Fish Fingers"]
+        ],
+        "type": "sauce"
+    },
+    {
+        "id": 21,
+        "name": "Spicy sauce",
+        "img": "spicy-sauce.jpg",
+        "ingredients": [
+            "Butter",
+            "Hot sauce or chili oil",
+            "Cornflour",
+            "Red pepper or chives"
+        ],
+        "method": [
+            "Melt butter in a pan.",
+            "Add hot sauce, chili oil, or any equivalent hot sauce.",
+            "Add a tiny bit of cornflour and mix well.",
+            "Serve with red pepper or chives on top."
+        ],
+        "matches": [
+            [10, "Beef Steaks"]
+        ],
+        "type": "sauce"
+    },
+    {
+        "id": 22,
+        "name": "Buffalo sauce",
+        "img": "buffalo-sauce.jpg",
+        "ingredients": [
+            "Half pack of butter",
+            "Half bottle of Frank's hot sauce",
+            "White wine vinegar",
+            "Worcestershire sauce",
+            "Garlic puree",
+            "Lemon juice",
+            "Cornflour"
+        ],
+        "method": [
+            "Melt half pack of butter.",
+            "Add half bottle of Frank's hot sauce.",
+            "Add a little bit of white wine vinegar.",
+            "Add a drop of Worcestershire sauce.",
+            "Add a little bit of garlic puree, lemon juice, and cornflour.",
+            "Mix well until smooth."
+        ],
+        "matches": [],
+        "type": "sauce"
+    },
+    {
+        "id": 23,
+        "name": "Garlic mayo sauce",
+        "img": "garlic-mayo-sauce.jpg",
+        "ingredients": [
+            "1/2 cloves of garlic",
+            "Yogurt",
+            "Mayonnaise",
+            "Dill"
+        ],
+        "method": [
+            "Squeeze 1/2 cloves of garlic.",
+            "Add yogurt and mayonnaise in a ratio of 1:1.",
+            "Add dill and mix well."
+        ],
+        "matches": [],
+        "type": "sauce"
+    },
+    {
+        "id": 24,
+        "name": "Gochujang mayo sauce",
+        "img": "gochujang-mayo-sauce.jpg",
+        "ingredients": [
+            "Gochujang paste",
+            "Mayonnaise",
+            "Chipotle"
+        ],
+        "method": [
+            "Mix the gochujang paste with mayonnaise in a ratio of 1:2.",
+            "Add some chipotle and mix well."
+        ],
+        "matches": [],
+        "type": "sauce"
+    },
+    {
+        "id": 25,
+        "name": "Peas purée",
+        "img": "peas-puree.jpg",
+        "ingredients": [
+            "Peas",
+            "Water",
+            "Lemon juice",
+            "Salt"
+        ],
+        "method": [
+            "Boil the peas until soft.",
+            "Add peas to blender alongside some water.",
+            "Add lemon juice and salt to taste."
+        ],
+        "matches": [
+            [0, "Fish Tempura"],
+            [7, "Fish Fingers"]
+        ],
+        "type": "side"
+    },
+    {
+        "id": 26,
+        "name": "Potato purée",
+        "img": "potato-puree.jpg",
+        "ingredients": [
+            "Potatoes",
+            "Butter",
+            "Milk",
+            "Salt",
+            "Black pepper",
+            "Grated cheese"
+        ],
+        "method": [
+            "Peel potatoes and cut them into medium-sized cubes.",
+            "Boil until soft.",
+            "Mash the potatoes and add butter and milk.",
+            "Add salt and black pepper to taste.",
+            "Add grated cheese and mix well."
+        ],
+        "matches": [
+            [0, "Fish Tempura"],
+            [1, "Chilli Salmon"]
+        ],
+        "type": "side"
+    },
+    {
+        "id": 27,
+        "name": "Fried potatoes",
+        "img": "fried-potatoes.jpg",
+        "ingredients": [
+            "Potatoes"
+        ],
+        "method": [
+            "Slice potato into long rectangles.",
+            "Heat oil in pan.",
+            "Deep fry potatoes until golden."
+        ],
+        "matches": [
+            [0, "Fish Tempura"],
+            [7, "Fish Fingers"]
+        ],
+        "type": "side"
+    },
+    {
+        "id": 28,
+        "name": "Green salad",
+        "img": "green-salad.jpg",
+        "ingredients": [
+            "Tomatoes",
+            "Cucumber",
+            "Red onion",
+            "Parsley",
+            "Pepper (optional)",
+            "Vinegar",
+            "Feta cheese",
+            "Olives",
+            "Parsley branch"
+        ],
+        "method": [
+            "Chop tomatoes and cucumber into mid-sized cubes.",
+            "Cut red onion into mid-sized cubes.",
+            "Dice parsley and add to the mix.",
+            "Optional: Dice pepper into cubes and add to the mix.",
+            "Add vinegar and olive oil and mix well.",
+            "Serve with grated feta cheese on top and olive and parsley branch for decoration."
+        ],
+        "matches": [
+            [1, "Chilli Salmon"],
+            [3, "BBQ Chicken"],
+            [5, "Spicy Chicken Stew"],
+            [8, "Milanesa chicken"]
+        ],
+        "type": "side"
+    },
+    {
+        "id": 29,
+        "name": "Rice",
+        "img": "rice.jpg",
+        "ingredients": [
+            "Rice",
+            "Butter",
+            "Salt",
+            "Water"
+        ],
+        "method": [
+            "Measure the desired amount of rice and wash it thoroughly.",
+            "Prepare a 1.8:1 water-to-rice ratio and add to a pot.",
+            "Add the cleaned rice, a spoon of butter, and a pinch of salt to the pot and bring to a boil.",
+            "When the water boils, decrease the heat.",
+            "Add more water if needed, and once the rice is soft, turn off the heat and mix well."
+        ],
+        "matches": [
+            [2, "Asian Chicken"],
+            [3, "BBQ Chicken"],
+            [5, "Spicy Chicken Stew"],
+            [8, "Milanesa chicken"]
+        ],
+        "type": "side"
+    },
+    {
+        "id": 30,
+        "name": "Asparagus",
+        "img": "asparagus.jpg",
+        "ingredients": [
+            "Asparagus",
+            "Butter (optional)",
+            "Lemon (optional)",
+            "Sea salt flakes"
+        ],
+        "method": [
+            "Wash the asparagus and peel the bottom part slightly with a peeler.",
+            "Cut off a finger of the bottom, as this part is hard and uneatable.",
+            "Boil water in a pot.",
+            "Once the water is boiling, turn off the heat and add the asparagus.",
+            "Cover the pot with cling film and steam the asparagus for about 5 minutes or until soft.",
+            "Serve steamed, or add lemon and butter for extra flavor.",
+            "Add sea salt flakes to taste."
+        ],
+        "matches": [
+            [2, "Asian Chicken"],
+            [3, "BBQ Chicken"],
+            [5, "Spicy Chicken Stew"],
+            [10, "Beef Steaks"]
+        ],
+        "type": "side"
+    },
+    {
+        "id": 31,
+        "name": "Broccoli",
+        "img": "broccoli.jpg",
+        "ingredients": [
+            "Broccoli",
+            "Butter (optional)",
+            "Lemon (optional)"
+        ],
+        "method": [
+            "Wash the broccoli and cut off a finger space of their tail.",
+            "Add water to a pot and bring to a boil.",
+            "Add the broccoli to the boiling water and cook until softened.",
+            "Turn off the heat once the broccoli is tender.",
+            "Enjoy plain or add butter and lemon for extra flavor."
+        ],
+        "matches": [
+            [2, "Asian Chicken"],
+            [3, "BBQ Chicken"],
+            [5, "Spicy Chicken Stew"],
+            [10, "Beef Steaks"]
+        ],
+        "type": "side"
+    },
+    {
+        "id": 32,
+        "name": "Bok Choy",
+        "img": "bok-choy.jpg",
+        "ingredients": [
+            "Bok Choy",
+            "Garlic Powder",
+            "Salt"
+        ],
+        "method": [
+            "Wash and slice off the tail of the bok choy in a triangular shape.",
+            "Bring water to a boil in a pot and add the bok choy.",
+            "Cook until soft, then turn off the heat.",
+            "Season with garlic powder and salt, and serve hot."
+        ],
+        "matches": [
+            [2, "Asian Chicken"]
+        ],
+        "type": "side"
+    },
+    {
+        "id": 33,
+        "name": "Green Beans",
+        "img": "green-beans.jpg",
+        "ingredients": [
+            "Green Beans"
+        ],
+        "method": [
+            "Wash the green beans and remove the tails.",
+            "Add water to a pot and bring to a boil.",
+            "Add the green beans and cook until soft.",
+            "Serve hot."
+        ],
+        "matches": [
+            [3, "BBQ Chicken"],
+            [10, "Beef Steaks"]
+        ],
+        "type": "side"
+    },
+    {
+        "id": 34,
+        "name": "Caesar Dressing",
+        "img": "caesar-dressing.jpg",
+        "ingredients": [],
+        "method": [],
+        "matches": [],
+        "type": "sauce"
+    },
+    {
+        "id": 35,
+        "name": "Grilled Aubergine",
+        "img": "grilled-aubergine.jpg",
+        "ingredients": [
+          "1 aubergine",
+          "Salt",
+          "1 onion",
+          "2 garlic cloves",
+          "2 fresh tomatoes",
+          "Basil",
+          "Cheese",
+          "1 egg"
+        ],
+        "method": [
+          "Wash the aubergine and slice in half, then slice each half into four pieces.",
+          "Place the aubergine pieces in a bowl and add salt, then mix well.",
+          "In a heated pan, place the pieces down on one side.",
+          "When almost black, flip to the other side.",
+          "When almost black, place on the skin part and press to squeeze the juice.",
+          "After a longer time, flip to the front and take out.",
+          "Remove the skin from the precooked aubergines and dice them into cubes.",
+          "In a pan, add a drop of oil and cook onion until soft.",
+          "Add garlic and fresh tomatoes diced in cubes.",
+          "Add basil and the diced aubergines, and cook until hot.",
+          "In an oven-suitable bowl, add the mix, add drops of cheese, and cover with egg.",
+          "Bake for 10 minutes at 230°C."
+        ],
+        "matches": [
+            [10, "Beef Steaks"]
+        ],
+        "type": "side"
+    },
+    {
+        "id": 36,
+        "name": "Spinach",
+        "img": "spinach.jpg",
+        "ingredients": [
+            "Spinach",
+            "Grated cheese",
+            "Milk",
+            "Salt"
+        ],
+        "method": [
+            "Wash and boil spinach for 5-10 mins.",
+            "Drain spinach from water and put in bowl.",
+            "Add grated cheese and a few drops of milk and salt.",
+            "Blend until all is mixed well.",
+            "Serve hot (reheat if needed)."
+        ],
+        "matches": [
+            [10, "Beef Steaks"]
+        ],
+        "type": "side"
+    },
+    {
+        "id": 37,
+        "name": "Mac and Cheese",
+        "img": "mac-and-cheese.jpg",
+        "ingredients": [],
+        "method": [],
+        "matches": [
+            [10, "Beef Steaks"]
+        ],
+        "type": "side"
+    },
+    {
+        "id": 38,
+        "name": "Corn",
+        "img": "corn.jpg",
+        "ingredients": [
+          "corn",
+          "butter",
+          "salt"
+        ],
+        "method": [
+          "Cut corn in half and cut each half into four pieces.",
+          "In a heated pan, add butter and salt and add each corn piece.",
+          "Grill until there's a little char on the corn and enjoy."
+        ],
+        "matches": [
+            [10, "Beef Steaks"],
+            [5, "Spicy Chicken Stew"]
+        ],
+        "type": "side"
+    },
+    {
+        "id": 39,
+        "name": "Potato Salad",
+        "img": "potato-salad.jpg",
+        "ingredients": [
+          "potatoes",
+          "black pepper",
+          "leek",
+          "feta cheese",
+          "mayonnaise",
+          "gherkin",
+          "milk",
+          "mozzarella"
+        ],
+        "method": [
+          "Wash and peel potatoes.",
+          "Cut potatoes into squares and boil until cooked.",
+          "Mash the potatoes in a bowl and add black pepper.",
+          "Add sliced leek, feta cheese, mayonnaise, and gherkins sliced into cubes.",
+          "Optional: Add milk and mozzarella if desired."
+        ],
+        "matches": [],
+        "type": "side"
+    },
+    {
+        "id": 40,
+        "name": "Tolumbi",
+        "img": "tolumbi.jpg",
+        "ingredients": [
+          "Water",
+          "500g Sugar",
+          "Vanilla essence",
+          "Salt",
+          "Flour",
+          "5 eggs"
+        ],
+        "method": [
+          "Prepare the syrup by boiling 750g water and 500g sugar with vanilla essence, and let it cool when it boils; stop it.",
+          "Prepare the batch for the Tolumbi by adding 250g of water and a drop of oil to a pot.",
+          "Add salt and sugar pinch, and bring to boil.",
+          "When boiled, add a bucket of flour and start mixing.",
+          "When mixed properly, leave to cool down.",
+          "When cooled, add 5 eggs one by one, ensuring they are mixed properly without flour collections.",
+          "The batch is then added to boiling oil and fried.",
+          "After being fried, each is dipped into the syrup liquid for a couple of seconds and placed in a tray to chill."
+        ],
+        "matches": [],
+        "type": "dessert"
+    },
+    {
+        "id": 41,
+        "name": "Grilled Pasta",
+        "img": "grilled_pasta.jpg",
+        "ingredients": [
+          "Pasta",
+          "5 eggs",
+          "200g sugar",
+          "Vanilla essence",
+          "1 liter milk"
+        ],
+        "method": [
+          "Boil the pasta until it's almost cooked.",
+          "Prepare the mix with 5 eggs, 200g sugar, vanilla essence, and 1 liter milk and mix well.",
+          "Place the pasta and the mix in a tray and bake in the oven at 180°C until crispy on top."
+        ],
+        "matches": [],
+        "type": "dessert"
+    }
+]
