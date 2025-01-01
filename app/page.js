@@ -1,85 +1,60 @@
 'use client'
 
-import Image from "next/image";
-import recipes from "@/data/data.json";
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import Food from "./Food";
+import Coffee from "./Coffee";
+import Drinks from "./Drinks";
 
 export default function Home() {
-  const [recipe, setRecipe] = useState(-1);
+  const [currentPage, setCurrentPage] = useState("menu");
 
-  return (
-    <div className="bg-white">
-
-      {recipe === -1 ? <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-        {["main", "breakfast", 'side', 'sauce', 'dessert'].map((type) => (<>
-          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl mb-10">{type[0].toUpperCase() + type.slice(1) + 's'}</h1>
-          <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 mb-10">
-            {recipes.filter(recipe => recipe.type === type).map((recipe) => (
-              <a key={recipe.id} className="group cursor-pointer" onClick={() => setRecipe(recipe.id)}>
-                <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                  <img
-                    alt={recipe.name}
-                    src={recipe.img}
-                    className="h-full w-full object-cover object-center group-hover:opacity-75"
-                  />
-                  <div className="absolute inset-0 bg-gray-800 bg-opacity-50 flex items-end p-4">
-                    <p className="text-2xl font-medium text-white">{recipe.name}</p>
-                  </div>
-                </div>
-              </a>
-            ))}
+  const renderPage = () => {
+    switch (currentPage) {
+      case "food":
+        return <Food goBack={() => setCurrentPage("menu")} />;
+      case "coffee":
+        return <Coffee goBack={() => setCurrentPage("menu")} />;
+      case "drinks":
+        return <Drinks goBack={() => setCurrentPage("menu")} />;
+      default:
+        return (
+          <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+            <h1 className="text-5xl font-bold tracking-tight text-gray-900 mb-12">
+              Menu
+            </h1>
+            <div className="space-y-8">
+              <div
+                onClick={() => setCurrentPage("food")}
+                className="group flex w-72 h-40 items-center justify-center rounded-lg bg-cover bg-center shadow-md hover:shadow-lg cursor-pointer transform transition-transform hover:scale-105"
+                style={{ backgroundImage: "url('/FoodBG.jpg')" }}
+              >
+                <p className="text-3xl font-semibold text-white group-hover:opacity-90 bg-black bg-opacity-50 px-6 py-2 rounded-md">
+                  Food
+                </p>
+              </div>
+              <div
+                onClick={() => setCurrentPage("coffee")}
+                className="group flex w-72 h-40 items-center justify-center rounded-lg bg-cover bg-center shadow-md hover:shadow-lg cursor-pointer transform transition-transform hover:scale-105"
+                style={{ backgroundImage: "url('/CoffeeBG.jpg')" }}
+              >
+                <p className="text-3xl font-semibold text-white group-hover:opacity-90 bg-black bg-opacity-50 px-6 py-2 rounded-md">
+                  Coffee
+                </p>
+              </div>
+              <div
+                onClick={() => setCurrentPage("drinks")}
+                className="group flex w-72 h-40 items-center justify-center rounded-lg bg-cover bg-center shadow-md hover:shadow-lg cursor-pointer transform transition-transform hover:scale-105"
+                style={{ backgroundImage: "url('/CoctailsBG.jpg')" }}
+              >
+                <p className="text-3xl font-semibold text-white group-hover:opacity-90 bg-black bg-opacity-50 px-6 py-2 rounded-md">
+                  Drinks
+                </p>
+              </div>
+            </div>
           </div>
-        </>))}
+        );
+    }
+  };
 
-
-      </div> 
-        :
-      <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-        <h2 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl mb-10">{recipe !== -1 && recipes[recipe].name}</h2>
-        <Image src={recipe !== -1 && '/' + recipes[recipe].img} alt="Image of food" width={500} height={60} className="rounded-lg bg-gray-200 object-cover w-2/3 h-96"/>
-        
-        {recipe !== -1 && recipes[recipe].ingredients.length !== 0 &&
-          <div className="mx-auto my-10">
-            <span className="text-2xl font-semibold">Ingredients:</span>
-            <ul className="mx-5 list-disc pt-3 text-lg">
-              {recipe !== -1 && recipes[recipe].ingredients.map((ingredient, i) => (
-                <li key={i}>{ingredient}</li>
-              ))}
-            </ul>
-          </div>
-        }
-
-        {recipe !== -1 && recipes[recipe].method.length !== 0 &&
-          <div className="mx-auto my-10">
-            <span className="text-2xl font-semibold">Preparation:</span>
-            <ol className="mx-5 list-decimal pt-3 text-lg">
-              {recipe !== -1 && recipes[recipe].method.map((step, i) => (
-                <li key={i}>{step}</li>
-              ))}
-            </ol>
-          </div>
-        }
-
-        <div className="mx-auto my-10">
-          {recipe !== -1 && recipes[recipe].matches.length !== 0 ?
-            <span className="text-2xl font-semibold">A good match with:</span>
-              :
-            <span className="text-2xl font-semibold">Perfect to enjoy on its own</span>
-          }
-          <div className="pt-3">
-            {recipe !== -1 && recipes[recipe].matches.map((item, i) => (
-              (item[0] !== -1 ?
-                <span key={i} onClick={() => setRecipe(item[0])} class="inline-flex items-center rounded-md bg-purple-50 px-2 py-1 mr-2 text-s font-medium text-purple-700 ring-1 ring-inset ring-purple-700/10 cursor-pointer">{item[1]}</span>
-                  :
-                <span key={i} class="inline-flex items-center rounded-md bg-pink-50 px-2 py-1 mr-2 text-s font-medium text-pink-700 ring-1 ring-inset ring-pink-700/10">{item[1]}</span>
-              )
-            ))}
-          </div>
-        </div>
-
-        <button onClick={() => setRecipe(-1)} class="rounded-md bg-indigo-600 mt-4 px-3 py-2 text-lg font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Main menu</button>
-      </div> }
-
-    </div>
-  )
+  return <div>{renderPage()}</div>;
 }
